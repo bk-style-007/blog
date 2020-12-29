@@ -1,0 +1,62 @@
+@import 'layout.css';
+@import 'style.css';
+@import 'utils.css';
+
+
+/* Article */
+
+.content2 {
+    padding: 80px 5% 30px;
+}
+
+.content2 p{
+    font-size: 20px;
+}
+
+.post-meta{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+
+.author-info{
+    margin: 12px 0;
+    padding: 4px 12px;
+    font-weight: bold;
+}
+
+.social-sharing{
+    padding: 30px 15px;
+}
+
+.social{
+    padding: 5px;
+}
+
+.social:hover{
+    border: 1px solid whitesmoke;
+}
+
+
+/* Medium Screens */
+@media (min-width: 700px) and (max-width:1200px) {
+    .content2 {
+        padding: 35px 15%;
+    }
+}
+
+
+/* Large Screens */
+@media (min-width: 1201px) {
+    .content2 {
+        padding: 60px 26%;
+    }
+}
+
+
+
+/* Related Post Section */
+
+.related-post {
+    margin-top: 100px;
+}

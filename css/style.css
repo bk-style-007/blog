@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Typography */
+
+body,
+input,
+.submit-btn {
+    font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display',
+    serif;
+}
+
+#footer {
+    font-family: 'Lora',
+        serif;
+}
+
+
+
+/* Colors */
+body {
+    background: #eeeeee;
+}
+
+.header, .header2 {
+    background: #f5f5f5;
+}
+
+.nav-link,
+.feat-txt, 
+.icon-bar a,
+.social {
+    color: #364f6b;
+}
+
+.btn,
+.submit-btn,
+#footer,
+.social-icon {
+    color: #eeeeee;
+}
+
+.card,
+.subscribe-wrapper {
+    background: #fff;
+}
+
+#footer {
+    background: #222831;
+}
+
+.btn,
+.submit-btn {
+    background: linear-gradient(to right, #222831, #393e46);
+}
+
+.btn:hover,
+.submit-btn:hover {
+    background: linear-gradient(to right, #393e46, #222831);
+}

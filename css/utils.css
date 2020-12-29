@@ -1,0 +1,135 @@
+/* Header / Navbar - Section */
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+
+}
+
+.logo {
+    width: 140px;
+}
+
+.nav-item {
+    float: right;
+    font-size: 1.6em;
+}
+
+.nav-link {
+    display: flex;
+    padding: 20px 10px;
+    text-decoration: none;
+    opacity: .8;
+    transition: .3s;
+
+}
+
+.nav-link:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+@media (min-width:1024px) {
+    .nav-items {
+        padding: 0 10%;
+    }
+}
+
+
+
+/* Heading */
+.heading {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+
+
+/* Card section */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+
+.card-header {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.card-body {
+    padding: 30px 10px;
+}
+
+.a-info {
+    opacity: .6;
+    text-decoration: underline;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+
+/* Medium Screens */
+@media (min-width: 700px) and (max-width:1200px) {
+    .card {
+        width: 40%;
+    }
+}
+
+
+/* Large Screens */
+@media (min-width: 1201px) {
+    .card {
+        width: 30%;
+    }
+}
+
+
+
+
+/* Buttons Design */
+.btn {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    padding: 10px 5px;
+    transition: all .25s ease;
+
+}
+
+
+
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    padding: 70px 0 50px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    opacity: .8;
+}
+
+.social-icon:hover {
+    opacity: 1;
+}

@@ -1,0 +1,53 @@
+/* Home Page Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75px 800px 1fr 360px 180px;
+    grid-template-areas:
+        "hd"
+        "feat"
+        "main"
+        "sub"
+        "ft";
+}
+
+.header {
+    grid-area: hd;
+}
+
+.feat {
+    grid-area: feat;
+}
+
+.content {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: ft;
+}
+
+
+/* Blog Post Layout */
+
+.container2{
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 75px 1fr 180px;
+    grid-template-areas: 
+    "hd2"
+    "con"
+    "ft2";
+}
+
+.header2{
+    grid-area: hd2;
+}
+
+.content2{
+    grid-area: con;
+}
+
+.footer2 {
+    grid-area: ft2;
+}
